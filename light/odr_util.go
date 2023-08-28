@@ -22,11 +22,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/rawdb"
+	"github.com/tenderly/binance-geth/core/txpool"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/rlp"
 )
 
 // errNonCanonicalHash is returned if the requested chain data doesn't belong

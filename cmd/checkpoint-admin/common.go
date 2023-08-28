@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/binance-geth/accounts"
+	"github.com/tenderly/binance-geth/accounts/abi/bind"
+	"github.com/tenderly/binance-geth/accounts/external"
+	"github.com/tenderly/binance-geth/cmd/utils"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/contracts/checkpointoracle"
+	"github.com/tenderly/binance-geth/ethclient"
+	"github.com/tenderly/binance-geth/params"
+	"github.com/tenderly/binance-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

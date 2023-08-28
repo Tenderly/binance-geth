@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/binance-geth/consensus/ethash"
+	"github.com/tenderly/binance-geth/core"
+	"github.com/tenderly/binance-geth/core/rawdb"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/light"
+	"github.com/tenderly/binance-geth/p2p/enode"
+	"github.com/tenderly/binance-geth/params"
 )
 
 // verifyImportEvent verifies that one single event arrive on an import channel.

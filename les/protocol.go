@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/crypto"
+	vfc "github.com/tenderly/binance-geth/les/vflux/client"
+	"github.com/tenderly/binance-geth/p2p/enode"
+	"github.com/tenderly/binance-geth/rlp"
 )
 
 // Constants to match up protocol versions and messages

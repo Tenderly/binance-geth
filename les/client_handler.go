@@ -24,16 +24,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/les/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/common/mclock"
+	"github.com/tenderly/binance-geth/core/forkid"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/eth/protocols/eth"
+	"github.com/tenderly/binance-geth/les/downloader"
+	"github.com/tenderly/binance-geth/light"
+	"github.com/tenderly/binance-geth/log"
+	"github.com/tenderly/binance-geth/p2p"
+	"github.com/tenderly/binance-geth/params"
 )
 
 // clientHandler is responsible for receiving and processing all incoming server

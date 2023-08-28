@@ -24,12 +24,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/rawdb"
+	"github.com/tenderly/binance-geth/core/state"
+	"github.com/tenderly/binance-geth/crypto"
+	"github.com/tenderly/binance-geth/params"
 )
 
 type TwoOperandTestcase struct {

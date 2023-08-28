@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

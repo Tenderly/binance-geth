@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/params"
 )
 
 var activators = map[int]func(*JumpTable){

@@ -25,13 +25,13 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/common/prque"
+	"github.com/tenderly/binance-geth/consensus"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/log"
+	"github.com/tenderly/binance-geth/metrics"
+	"github.com/tenderly/binance-geth/trie"
 )
 
 const (

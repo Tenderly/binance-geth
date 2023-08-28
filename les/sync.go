@@ -21,12 +21,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/les/downloader"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/rawdb"
+	"github.com/tenderly/binance-geth/les/downloader"
+	"github.com/tenderly/binance-geth/light"
+	"github.com/tenderly/binance-geth/log"
+	"github.com/tenderly/binance-geth/params"
 )
 
 var errInvalidCheckpoint = errors.New("invalid advertised checkpoint")

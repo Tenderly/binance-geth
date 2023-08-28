@@ -27,12 +27,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/olekukonko/tablewriter"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/ethdb"
+	"github.com/tenderly/binance-geth/ethdb/leveldb"
+	"github.com/tenderly/binance-geth/ethdb/memorydb"
+	"github.com/tenderly/binance-geth/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

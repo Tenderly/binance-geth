@@ -21,13 +21,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/binance-geth/beacon/engine"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/common/hexutil"
+	"github.com/tenderly/binance-geth/les"
+	"github.com/tenderly/binance-geth/log"
+	"github.com/tenderly/binance-geth/node"
+	"github.com/tenderly/binance-geth/rpc"
 )
 
 // Register adds catalyst APIs to the light client.

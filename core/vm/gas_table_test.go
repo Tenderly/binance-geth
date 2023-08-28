@@ -23,11 +23,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/common/hexutil"
+	"github.com/tenderly/binance-geth/core/rawdb"
+	"github.com/tenderly/binance-geth/core/state"
+	"github.com/tenderly/binance-geth/params"
 )
 
 func TestMemoryGasCost(t *testing.T) {

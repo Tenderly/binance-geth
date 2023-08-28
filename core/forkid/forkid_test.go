@@ -21,9 +21,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/params"
+	"github.com/tenderly/binance-geth/rlp"
 )
 
 func u64(val uint64) *uint64 { return &val }

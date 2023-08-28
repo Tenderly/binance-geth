@@ -19,8 +19,8 @@ package rawdb
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/ethdb"
 )
 
 type tableSize struct {

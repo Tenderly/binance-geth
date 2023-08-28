@@ -21,7 +21,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/binance-geth/rlp"
 )
 
 var ErrNoReply = errors.New("no reply for given request")

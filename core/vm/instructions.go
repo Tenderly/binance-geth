@@ -19,11 +19,11 @@ package vm
 import (
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/crypto"
+	"github.com/tenderly/binance-geth/params"
 )
 
 func opAdd(pc *uint64, interpreter *EVMInterpreter, scope *ScopeContext) ([]byte, error) {

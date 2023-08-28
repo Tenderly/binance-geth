@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/consensus"
+	"github.com/tenderly/binance-geth/consensus/misc"
+	"github.com/tenderly/binance-geth/core/state"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/params"
+	"github.com/tenderly/binance-geth/rpc"
+	"github.com/tenderly/binance-geth/trie"
 )
 
 // Proof-of-stake protocol constants.

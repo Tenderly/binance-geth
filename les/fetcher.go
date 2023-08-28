@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/fetcher"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/consensus"
+	"github.com/tenderly/binance-geth/core"
+	"github.com/tenderly/binance-geth/core/rawdb"
+	"github.com/tenderly/binance-geth/core/types"
+	"github.com/tenderly/binance-geth/ethdb"
+	"github.com/tenderly/binance-geth/les/fetcher"
+	"github.com/tenderly/binance-geth/light"
+	"github.com/tenderly/binance-geth/log"
+	"github.com/tenderly/binance-geth/p2p/enode"
 )
 
 const (

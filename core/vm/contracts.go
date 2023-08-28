@@ -22,14 +22,14 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/blake2b"
-	"github.com/ethereum/go-ethereum/crypto/bls12381"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/params"
 	big2 "github.com/holiman/big"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/common/math"
+	"github.com/tenderly/binance-geth/crypto"
+	"github.com/tenderly/binance-geth/crypto/blake2b"
+	"github.com/tenderly/binance-geth/crypto/bls12381"
+	"github.com/tenderly/binance-geth/crypto/bn256"
+	"github.com/tenderly/binance-geth/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

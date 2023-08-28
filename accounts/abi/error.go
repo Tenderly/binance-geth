@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/crypto"
 )
 
 type Error struct {

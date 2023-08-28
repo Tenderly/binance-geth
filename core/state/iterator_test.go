@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
+	"github.com/tenderly/binance-geth/common"
+	"github.com/tenderly/binance-geth/core/rawdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.
